@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:12.04
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository -y ppa:brightbox/ruby-ng
 RUN add-apt-repository -y ppa:openjdk-r/ppa
